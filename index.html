@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praia de concreto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Surf Ferrugem</li>
+                <li>Garopaba Centro</li>
+                <li>Praia do Rosa</li>
+            </ul>
+        </nav>
+        <h1>Vida de um SURFISTA!</h1>
+    </header>
+    <section>
+        <h2>Olá, eu sou um surfista da cidade</h2>
+            <p>
+                <p></p>Minha história no surf é cheia de momentos marcantes, e tudo começou quando eu tinha 8 anos de idade, em Balneário Gaivota, Santa Catarina. Foi lá que, pela primeira vez, eu senti a emoção de estar em cima de uma prancha. Mas esse primeiro contato com o mar também me trouxe uma experiência única: enquanto surfava, vi um golfinho surgir próximo a mim. Meu irmão estava junto, e o susto foi enorme! Naquele momento, a mistura de medo e fascinação tomou conta de nós, e essa lembrança ficou gravada para sempre.
+                <br><br>
+
+                Ao longo dos anos, continuei dividindo meu tempo entre Balneário Gaivota, Garopaba, Imbituba e Farol de Santa Marta, sempre buscando novas ondas e desafios. Aos 12 anos, tive uma experiência que até hoje me faz rir. Era meu primeiro surf na famosa Praia do Rosa, conhecida por suas ondas poderosas, e o mar estava gigantesco. Eu estava tremendo de medo, com as pernas bambas, mas não quis dar o braço a torcer. O resultado? Um surf vergonhoso, em que mal consegui ficar de pé na prancha. Mas, como todo surfista sabe, essas derrotas fazem parte da jornada.
+                <br><br>
+
+                Aos 13 anos, comecei a explorar as praias do Rio Grande do Sul, como Tramandaí e Torres, ganhando mais confiança nas águas. Mas o ponto alto veio aos 28 anos, quando realizei o sonho de me mudar para Imbituba, onde vivi até os 33 anos. Foi lá que minha paixão pelo surf atingiu outro nível, com dias inteiros dedicados ao mar e à busca pela onda perfeita.
+                <br><br>
+                <a href="https://www.instagram.com/mauricioguagliardo/">link</a>
+                <hr>
+            </p>
+            <figure>
+                <img src="img/_EDY6317.JPG" alt="Surf na praia do Rosa" style="width: 400px;">
+                <figcaption>Surf na praia do Rosa</figcaption>
+            </figure>
+            <figure>
+                <img src="img/_EDY6319 1.JPG" alt="Surf na praia do Rosa" style="width: 400px;">
+                <figcaption>Surf na praia do Rosa</figcaption>
+            </figure>
+            <figure>
+                <img src="img/IMG_3788 20x30 1.jpg" alt="Surf na praia do Rosa" style="width: 400px;">
+                <figcaption>Surf na praia do Rosa</figcaption>
+            </figure>
+            <figure>
+                <img src="img/IMG_3789 1 1.jpg" alt="Surf na praia do Rosa" style="width: 400px;">
+                <figcaption>Surf na praia do Rosa</figcaption>
+            </figure>
+            
+    </section>
+    <br><br>
+    <section>
+        <h2>Lugares que vou conhecer</h2>
+        <p>Muitos lugares a destacar, mas coloquei somente os que me deixam mais animados.</p>
+        <table border>
+           <caption>Praias</caption>
+           <thead>
+                <tr>
+                    <th>Sonhos realizados</th> 
+                <th>Sim/Não</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peru, Lobitos</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Indonésia, Nias</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>Marrocos, Boilers</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>Costa Rica, Toda</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>Brasil, Regência</td>
+                    <td>Não</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <h1>Formulário de Escolha de Praia</h1>
+
+<form action="submit_reserva.php" method="post">
+
+    <!-- Dados Pessoais -->
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </fieldset>
+
+    <!-- Escolha da Praia -->
+    <fieldset>
+        <legend>Escolha a praia</legend>
+        <input type="checkbox" id="lobitos" name="praia" value="Peru, Lobitos">
+        <label for="lobitos">Peru, Lobitos</label><br>
+        
+        <input type="checkbox" id="nias" name="praia" value="Indonésia, Nias">
+        <label for="nias">Indonésia, Nias</label><br>
+        
+        <input type="checkbox" id="boilers" name="praia" value="Marrocos, Boilers">
+        <label for="boilers">Marrocos, Boilers</label><br>
+        
+        <input type="checkbox" id="toda" name="praia" value="Costa Rica, Toda">
+        <label for="toda">Costa Rica, Toda</label><br>
+        
+        <input type="checkbox" id="regencia" name="praia" value="Brasil, Regência">
+        <label for="regencia">Brasil, Regência</label>
+    </fieldset>
+
+    <!-- Medo de Ondas Grandes -->
+    <fieldset>
+        <legend>Você teria medo de surfar ondas grandes?</legend>
+        <input type="radio" id="medo_sim" name="medo_ondas" value="Sim" required>
+        <label for="medo_sim">Sim</label><br>
+        
+        <input type="radio" id="medo_nao" name="medo_ondas" value="Não">
+        <label for="medo_nao">Não</label>
+    </fieldset>
+
+    <!-- Dor de Barriga ou Trabalho -->
+    <fieldset>
+        <legend>Qual seria a descula por ver as ondas grandes?</legend>
+        <select id="reacao" name="reacao" required>
+            <option value="dor_de_barriga">Dor de barriga</option>
+            <option value="precisa_trabalhar">Precisa ir trabalhar</option>
+        </select>
+    </fieldset>
+
+    <!-- Botão de Envio -->
+    <input type="submit" value="Enviar">
+
+</form>
+
+
+    <footer>
+        <p>Desenvolvido por Maurício</p>
+    </footer>
+    
+</body>
+</html>
